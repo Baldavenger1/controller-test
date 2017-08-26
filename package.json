@@ -1,0 +1,19 @@
+{
+  "name": "controller-test",
+  "version": "1.0.0",
+  "description": "testy mctesterson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baldavenger1/controller-test.git"
+  },
+  "author": "baldavenger <dsimps1@live.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baldavenger1/controller-test/issues"
+  },
+  "homepage": "https://github.com/Baldavenger1/controller-test#readme"
+}
