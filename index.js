@@ -37,11 +37,17 @@
 
 // Use the 'require' keyword to load modules(libraries)
 var http = require('http');
+var url = require('url');
 // In general, you need to specify a call-back function with most of the Node modules methods
 http.createServer(function (request, response) {
+	var headers = request.headers;
+	var q = url.parse(request.url, true).query;
+	//console.log(headers);
+	console.log(request.url);
     response.writeHead(200); //Status code in header
-    response.write(request); //Response body
+    response.write("more and more testing"); //Response body
     response.end(); //Close the connection
+	
 }).listen(8080); //Port in which node will listen for connections
 
 console.log('Listening on port 8080...');
