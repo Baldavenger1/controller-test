@@ -4,7 +4,7 @@
   "description": "testy mctesterson",
   "main": "index.js",
   "scripts": {
-	"start": "node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Baldavenger1/controller-test/issues"
   },
-  "homepage": "https://github.com/Baldavenger1/controller-test#readme"
+  "homepage": "https://github.com/Baldavenger1/controller-test#readme",
+  "dependencies": {
+    "http": "0.0.0",
+    "request": "^2.81.0",
+    "url": "^0.11.0"
+  }
 }
